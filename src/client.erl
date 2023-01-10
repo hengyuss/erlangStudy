@@ -10,8 +10,9 @@
 -author("11836").
 -import(geometry, [calculate_area/1]).
 -import(tuple2list,[my_tuple_to_list/1]).
+-import(mytime,[my_date_string/0]).
 %% API
--export([start/0,start1/0]).
+-export([start/0,start1/0,start2/0]).
 
 start() ->
   X = calculate_area({square,4}),
@@ -25,3 +26,5 @@ start1()->
   MyList = my_tuple_to_list(MyTuple),
   io:format("X:~p",[MyList]).
 
+start2()->
+  my_date_string().
