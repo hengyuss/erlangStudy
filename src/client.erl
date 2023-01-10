@@ -22,8 +22,6 @@ start() ->
 
 
 
-
-
   io:format("X:~p Y:~p Z:~p M:~p",[X,Y,Z,M]).
 
 start1()->
