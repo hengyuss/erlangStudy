@@ -19,6 +19,8 @@ start() ->
   Y = calculate_area({rectangle,10,10}),
   Z = calculate_area({round,2}),
   M = calculate_area({right_triangle,4,4}),
+
+
   io:format("X:~p Y:~p Z:~p M:~p",[X,Y,Z,M]).
 
 start1()->
