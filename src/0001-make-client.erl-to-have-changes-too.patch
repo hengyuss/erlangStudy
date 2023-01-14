@@ -1,0 +1,28 @@
+From ed8974659a72d36ad0f3a3b48481b8e9543d8c20 Mon Sep 17 00:00:00 2001
+From: hengyu <1183660933@qq.com>
+Date: Tue, 10 Jan 2023 14:37:58 +0800
+Subject: [PATCH] make client.erl to have changes too
+
+---
+ src/client.erl | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/src/client.erl b/src/client.erl
+index 1b40957..c7e7400 100644
+--- a/src/client.erl
++++ b/src/client.erl
+@@ -19,6 +19,11 @@ start() ->
+   Y = calculate_area({rectangle,10,10}),
+   Z = calculate_area({round,2}),
+   M = calculate_area({right_triangle,4,4}),
++
++
++
++
++
+   io:format("X:~p Y:~p Z:~p M:~p",[X,Y,Z,M]).
+ 
+ start1()->
+-- 
+2.39.0.windows.1
+
